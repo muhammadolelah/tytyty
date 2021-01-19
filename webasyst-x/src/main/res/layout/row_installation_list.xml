@@ -6,7 +6,7 @@
     <data>
         <variable
             name="installation"
-            type="com.webasyst.api.Installation" />
+            type="com.webasyst.x.installations.Installation" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
