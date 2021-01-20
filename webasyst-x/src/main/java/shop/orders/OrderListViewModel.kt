@@ -22,7 +22,6 @@ class OrderListViewModel(
     private val installationUrl: String?
 ) : AndroidViewModel(application) {
     private val shopApiClient by lazy {
-        println(installationUrl)
         (getApplication<WebasystXApplication>()
             .apiClient
             .getFactory(ShopApiClient::class.java)
